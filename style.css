@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-image: url('image/man.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    background-color: rgb(255,251,251, 0.4);
+    margin: 100px;
+    margin-left: 80px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
+.task-area{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: 2px solid rgb(176, 176, 191);
+    border-radius: 10px;
+}
+
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: #fff;
+}
+#add{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    font-weight:bold;
+    background-color: rgb(70,118,251);
+}
+.task-tabs{
+    display: flex;
+    justify-content: column;
+    position: relative
+
+}
+.tab{
+    padding: 1em;
+}
+
+#shadow{
+    position: absolute;
+    margin-top: 10px;
+    background-color: rgb(147, 0, 108);
+    height: 3px;
+    width: 3px;
+    left: 1px;
+    border-radius: 3px;
+    transition: 0.4s;
+    z-index: -1;
+}
