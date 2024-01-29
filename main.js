@@ -1,7 +1,7 @@
-// shade(음영)효과 부터 만들자.
-// 1. shade div를 선택
+// shadow(음영)효과 부터 만들자.
+// 1. shadow div를 선택
 // 2. 각 tab에 이벤트핸들러를 단다.
-// 3. 이벤트핸들러에 알맞은 함수를 전달. - shade를 움직이게 한다.
+// 3. 이벤트핸들러에 알맞은 함수를 전달. - shadow를 움직이게 한다.
 const shadow = document.querySelector('#shadow')
 
 const tabs = document.querySelectorAll('.tab')
@@ -17,7 +17,7 @@ function indicator(e){
     shadow.style.top = e.currentTarget.offsetTop + 'px';
     shadow.style.width = e.currentTarget.offsetWidth + 'px';
 
-    shadow.style.height = '40px';
+    shadow.style.height = '80px';
 
     // 탭에 따라 달리 랜더링하기
     if (e.currentTarget.id == 'all'){
